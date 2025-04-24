@@ -1,6 +1,8 @@
-abstract public class Vehicle {
+public class Vehicle {
 
     final protected String name;
+
+    // some common code here
 
     public Vehicle(String name) {
         this.name = name;

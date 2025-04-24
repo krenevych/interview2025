@@ -4,8 +4,8 @@ public class Main {
         Car car = new Car("Ferrari");
         car.drive();
 
-        Vehicle bicycle = new Bicycle("Trek");
-        bicycle.drive();
+        Bicycle bicycle = new Bicycle("Trek");
+        bicycle.ride();
 
     }
 }
