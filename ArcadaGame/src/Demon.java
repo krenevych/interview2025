@@ -1,6 +1,6 @@
 public class Demon {
 
-    final String level;
+    private final String level;
 
     public Demon(String level) {
         this.level = level;

@@ -1,6 +1,6 @@
 public class Imp {
 
-    final String level;
+    private final String level;
 
     public Imp(String level) {
         this.level = level;

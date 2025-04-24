@@ -1,12 +1,11 @@
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Ігрова сцена
- */
+/**  Ігрова сцена  */
 public class GameScene {
 
     private final String level;  // Складність гри
+
     private final List<Demon> demons = new ArrayList<>();
     private final List<Imp> imps = new ArrayList<>();
     private final List<Zombie> zombies = new ArrayList<>();
@@ -42,11 +41,8 @@ public class GameScene {
      */
     public void start() {
         for (Demon demon : demons) demon.shoot();
-
         for (Zombie zombie : zombies) zombie.shoot();
-
         for (Imp imp : imps) imp.shoot();
-
     }
 
 }
